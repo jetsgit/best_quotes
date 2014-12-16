@@ -1,5 +1,5 @@
 class IndexController < Rulers::Controller
   def  index
-    puts "You have been redirected"
+    puts "You and I have been redirected"
   end
 end
