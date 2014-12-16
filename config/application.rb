@@ -4,7 +4,6 @@ $LOAD_PATH << File.join(File.dirname(__FILE__),  "..",  "app", "controllers")
 
 require 'pry'
 require "rulers"
-require "quotes_controller"
 
 module BestQuotes
    class Application < Rulers::Application

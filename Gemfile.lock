@@ -8,14 +8,46 @@ GEM
   remote: https://rubygems.org/
   specs:
     awesome_print (1.2.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    byebug (3.5.1)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+      slop (~> 3.6)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
     coderay (1.1.0)
+    columnize (0.9.0)
+    debug_inspector (0.0.2)
+    debugger-linecache (1.2.0)
+    ffi (1.9.6)
+    hitimes (1.2.2)
+    listen (2.8.3)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
     method_source (0.8.2)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (2.0.0)
+      byebug (~> 3.4)
+      pry (~> 0.10)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    pry-stack_explorer (0.4.9.1)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
     rack (1.5.2)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rerun (0.10.0)
+      listen (~> 2.7, >= 2.7.3)
     slop (3.6.0)
+    timers (4.0.1)
+      hitimes
 
 PLATFORMS
   ruby
@@ -23,4 +55,8 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   pry
+  pry-byebug
+  pry-nav
+  pry-stack_explorer
+  rerun
   rulers!
