@@ -1,0 +1,9 @@
+<% if author.first != "none"  %>
+  <h2>List of Quotes by <%= author.first["submitter"] %></h2>
+  <% author.each do |a| %>
+      <p><%= a["quote"] %><br/><%= a["attribution"] %></p> 
+  <% end %>
+<% else %>
+  <h2>No Quotes Available by that Author</h2>
+<% end  %>
+      

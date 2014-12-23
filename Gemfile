@@ -6,8 +6,8 @@ group :development do
         gem 'awesome_print'
         gem 'pry'
         gem 'pry-byebug'
-        gem 'pry-stack_explorer'
-        gem 'pry-nav'
+        # gem 'pry-stack_explorer'
+        # gem 'pry-nav'
 end
 
 
